@@ -1,0 +1,36 @@
+.deposit {
+  margin-top: 12rem;
+}
+.deposit__container {
+  text-align: center;
+}
+.deposit__container--input {
+}
+.deposit__input {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid #999;
+  outline: none;
+  border-radius: 0.5rem;
+}
+.deposit__btn {
+  font-size: 2rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  background-color: #2998ff;
+  outline: none;
+  color: #fff;
+  border: 2px solid #999;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+.deposit__btn:hover {
+  background-color: #2093ff;
+}
+.deposit__container--info {
+  margin-top: 5rem;
+}
+.deposit__container--info__text {
+  font-size: 1.5rem;
+}

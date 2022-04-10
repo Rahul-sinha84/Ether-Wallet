@@ -15,6 +15,6 @@ const main = async () => {
 main()
   .then(() => process.exit(0))
   .catch((err) => {
-    process.exit(1);
     console.log(err);
+    process.exit(1);
   });

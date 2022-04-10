@@ -1,0 +1,57 @@
+.transactions {
+}
+.transactions__container {
+  margin: 2rem auto;
+  width: 80%;
+}
+.transactions__container--text {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.transactions__container--list {
+  margin-top: 2rem;
+}
+.transactions__container--list__item {
+  margin: 2rem auto;
+}
+.transaction {
+}
+.transaction__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #777;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+.transaction__container--item {
+}
+.transaction__container--item__key {
+  text-align: center;
+}
+.transaction__container--item__value {
+  text-align: center;
+}
+.transaction__container--item__value--btn {
+  border: none;
+  outline: none;
+  text-align: center;
+  border-radius: 50rem;
+  color: white;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 3px solid #999;
+}
+.__tick {
+  background-color: #50c878;
+}
+.__tick:hover {
+  background-color: #30ce64;
+}
+.__cross {
+  background-color: #d2042d;
+}
+.__cross:hover {
+  background-color: #bc0026;
+}

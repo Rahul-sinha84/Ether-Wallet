@@ -80,6 +80,14 @@ contract MultiSigWallet {
         );
     }
 
+    function isConfirmedByOwner(uint256 txIndex, address _address)
+        public
+        view
+        returns (bool)
+    {
+        return thisOwnerConfirmed[txIndex][_address];
+    }
+
     function getOwners() public view returns (address[] memory) {
         return owners;
     }

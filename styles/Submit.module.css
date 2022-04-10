@@ -1,0 +1,37 @@
+.submit-transaction {
+  margin-top: 5rem;
+}
+.submit-transaction__container {
+}
+.submit-transaction__heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.submit-transaction__form {
+  text-align: center;
+}
+.submit-transaction__input {
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid #999;
+  outline: none;
+  border-radius: 0.5rem;
+  margin: 2rem 3rem;
+}
+
+.submit-transaction__btn-container {
+  text-align: center;
+}
+.submit-transaction__btn {
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  background-color: #2998ff;
+  outline: none;
+  color: #fff;
+  border: 2px solid #999;
+  border-radius: 0.5rem;
+}
